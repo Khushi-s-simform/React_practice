@@ -18,7 +18,12 @@ import PreviousValue from './UseRef_prev';*/
 /* import FormExample from './Useformstatus'; */
 /* import FormWithValidation from './UseFormstate';
 import UseFormStateExample from './Useformstate_Form'; */
-import LikeButton from './UseOptimistic';
+/* import LikeButton from './UseOptimistic'; */
+/* import UseAction from './UseActionsState'; */
+/* import CustomHook from './customHook'; */
+/* import { Users, UserDetail } from "./customHooks_fetch"; */
+/* import { CustomSearch } from './custormSearch'; */
+import ChildHook from './ChildHook';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,7 +36,13 @@ root.render(
 {/* <FormExample /> */}
 {/* <FormWithValidation />
 <UseFormStateExample /> */}
-<LikeButton />
+{/* <LikeButton /> */}
+{/* <UseAction /> */}
+{/* <CustomHook /> */}
+{/* <Users />
+<UserDetail /> */}
+{/* <CustomSearch /> */}
+<ChildHook />
 </React.StrictMode>
 
 );
